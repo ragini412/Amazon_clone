@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <script src="./script.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="nav-logo border">
+                    <img src="./images/amazon_logo.png" alt="Amazon Logo">
+                    <span>.ca</span>
+                </div>
+                <div class="nav-address border">
+                    <span id="add-first">Delievered to</span>
+                    <div class="description">
+                        <i class="fa-solid fa-location-dot fa-sm"></i>
+                        <span id="add-sec">Canada</span>
+                    </div>
+                </div>
+                <div class="nav-search">
+                    <select name="departments" id="departments" class="search-select">
+                        <option value="All Departments">All</option>
+                        <!-- <option value="Amazon Devices">Amazon Devices</option> -->
+                    </select>
+                    <input class="search-input" placeholder="Search Amazon.ca">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="nav-signin border">
+                    <span class="nav-first">Hello, Sign in</span>
+                    <div class="account-list">
+                        <span class="nav-sec">Account & Lists</span>
+                        <i class="fa-solid fa-caret-down fa-xs list-icon"></i>
+                    </div>
+                </div>
+                <div class="nav-returns border">
+                    <span class="nav-first">Returns</span>
+                    <span class="nav-sec">& Orders</span>
+                </div>
+                <div class="cart-icon border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Cart</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel-container">
+            <div class="panel">
+                <div class="panel-ops">
+                    <ul>
+                        <li class="all border">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>All</span>
+                        </li>
+                        <li class="border">Grocery</li>
+                        <li class="border">Today's Deals</li>
+                        <li class="border">Gift Ideas</li>
+                        <li class="border">Customer Service</li>
+                        <li class="border">Books</li>
+                        <li class="border">Best Sellers</li>
+                        <li class="border">Home</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="hero-container">
+            <div class="hero-section">
+
+            </div>
+        </div>
+        <div class="shop-section-1">
+            <div class="section-1">
+                <div class="box1 box">
+                    <div class="box-content">
+                        <h2>Discover Fragrances</h2>
+                        <div class="box-img"><img src="./images/fragrances.jpg" alt=""></div>
+                        <p>See More</p>
+                    </div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-content">
+                        <h2>Shop Fashion</h2>
+                        <div class="box-images">
+                            <div class="box-sub-img" id="box-sub-img-1">
+                                <img src="./images/women.jpg" alt="">
+                                <p>Women</p>
+                            </div>
+                            <div class="box-sub-img" id="box-sub-img-2">
+                                <img src="./images/men.jpg" alt="">
+                                <p>Men</p>
+                            </div>
+                            <div class="box-sub-img" id="box-sub-img-3">
+                                <img src="./images/premium_brands.jpg" alt="">
+                                <p>Premium Brands</p>
+                            </div>
+                            <div class="box-sub-img" id="box-sub-img-4">
+                                <img src="./images/all_fashion.jpg" alt="">
+                                <p>All Fashion</p>
+                            </div>
+                        </div>
+                        <p>Shop Now</p>
+                    </div>
+                </div>
+                <div class="box3 box">
+                    <div class="box-content">
+                        <h2>Electronics</h2>
+                        <div class="box-img"><img src="./images/electronics.jpg" alt=""></div>
+                        <p>Shop Now</p>
+                    </div>
+                </div>
+                <div class="box4 box">
+                    <div class="box-content">
+                        <h3>Most Wished for in Books</h3>
+                        <div class="box-books-images">
+                            <div class="box-sub-book" id="box-sub-book-1">
+                                <img src="./images/book1.jpg" alt="">
+                            </div>
+                            <div class="box-sub-book" id="box-sub-book-2">
+                                <img src="./images/books.jpg" alt="">
+                            </div>
+                            <div class="box-sub-book" id="box-sub-book-3">
+                                <img src="./images/book3.jpg" alt="">
+                            </div>
+                            <div class="box-sub-book" id="box-sub-book-4">
+                                <img src="./images/book4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-section-2">
+            <div class="section-2">
+                <h2>Best Sellers in Toys & Games</h2>
+                <ul class="carousel">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-1">
+                            <img src="./images/tg1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-2">
+                            <img src="./images/tg2.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-3">
+                            <img src="./images/tg3.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-4">
+                            <img src="./images/tg4.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-5">
+                            <img src="./images/tg5.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-6">
+                            <img src="./images/tg6.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-7">
+                            <img src="./images/tg7.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-8">
+                            <img src="./images/tg8.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-9">
+                            <img src="./images/tg9.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="carousel-img" id="carousel-img-10">
+                            <img src="./images/tg10.jpg" alt="">
+                        </div>
+                    </li>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </ul>
+            </div>
+            <div class="section-3">
+                boc
+            </div>
+        </div>
+        <!-- <div class="my">
+            <div>
+                <div class="box1 box">Box1</div>
+                <div class="box2 box">Box2</div>
+                <div class="box3 box">Box3</div>
+                <div class="box4 box">Box4</div>
+            </div>
+        </div> -->
+    </main>
+    <footer>hello Ragini</footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
